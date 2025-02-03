@@ -1,0 +1,38 @@
+# Исключаем папку target Maven и служебные файлы
+/target/
+.mvn/
+*.log
+
+# Исключаем настройки IDE (IntelliJ IDEA)
+.idea/
+*.iml
+
+# Исключаем файлы с настройками приложения
+/src/main/resources/application-secret.properties
+/src/main/resources/application.properties
+/src/main/resources/application.yml
+
+# Исключаем файлы окружения
+*.env
+
+# Исключаем Java-артефакты
+*.class
+*.jar
+*.war
+*.ear
+
+# Исключаем файлы BlueJ
+*.ctxt
+
+# Исключаем временные файлы Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Исключаем файлы архивов
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Исключаем файлы с логами аварийного завершения работы виртуальной машины
+hs_err_pid*
+replay_pid*
